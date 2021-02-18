@@ -4,6 +4,7 @@ import './App.css';
 import { SiteTop } from './components/Top';
 import { Profile } from './components/Profile';
 import { Skill } from './components/Skill';
+import { Portfolio } from './components/Portfolio';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <SiteTop />
     <Profile />
     <Skill />
+    <Portfolio />
     </>
   );
 }
