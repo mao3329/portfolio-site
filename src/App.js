@@ -15,6 +15,11 @@ function App() {
     <Skill />
     <Portfolio />
     <Contact />
+    <div className="footer">
+      <div>
+        <p className="copyright">Copyright&copy;  2021  Masaki Takebe.  All Rights Reserved.</p>
+      </div>
+    </div>
     </>
   );
 }
