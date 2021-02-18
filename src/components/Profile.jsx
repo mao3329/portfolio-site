@@ -2,7 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ProfileWrapper = styled.div`
-  margin: 0 auto 50px auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-border: 50px;
 `;
 
 const ProfileContents = styled.div`
