@@ -4,6 +4,7 @@ import { PortfolioIntro } from './PortfolioIntro';
 
 const PortfolioWrapper = styled.div`
   margin-bottom: 50px;
+  padding: 0 10vw;
 `;
 
 const PortfolioContents = styled.div`
