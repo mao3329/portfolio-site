@@ -23,7 +23,7 @@ export const PageMenu = () => {
     <MenuWrapper>
       <ul>
         <MenuList>
-          <i className="fas fa-male"></i>
+          <i className="fas fa-male" />
           <Link
             activeClass="active"
             to="profile"
@@ -34,7 +34,7 @@ export const PageMenu = () => {
           >Profile</Link>
         </MenuList>
         <MenuList>
-          <i className="fas fa-cog"></i>
+          <i className="fas fa-cog" />
           <Link
             activeClass="active"
             to="skills"
@@ -45,7 +45,7 @@ export const PageMenu = () => {
           >Skills</Link>
         </MenuList>
         <MenuList>
-          <i className="fas fa-sitemap"></i>
+          <i className="fas fa-sitemap" />
           <Link
             activeClass="active"
             to="portfolios"
@@ -56,7 +56,7 @@ export const PageMenu = () => {
           >Portfolios</Link>
         </MenuList>
         <MenuList>
-          <i className="fas fa-envelope"></i>
+          <i className="fas fa-envelope" />
           <Link
             activeClass="active"
             to="contacts"

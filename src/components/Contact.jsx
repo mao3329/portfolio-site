@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import Wantedly from '../images/wantedly.png';
 
-const ContactWrpper = styled.div`
+const ContactWrapper = styled.div`
   width: 80%;
   margin: 0 auto 50px auto;
   display: flex;
@@ -27,10 +28,10 @@ const ContactImg = styled.img`
 
 export const Contact = () => {
   return (
-    <ContactWrpper>
-      <a href='#'><ContactIcon className="fab fa-twitter"/></a>
-      <a href='#'><ContactImg src='#' /></a>
-      <a href='#'><ContactIcon className="fab fa-github"/></a>
-    </ContactWrpper>
+    <ContactWrapper>
+      <a href='https://twitter.com/spicewolf001' alt='twitter' ><ContactIcon className="fab fa-twitter" /></a>
+      <a href='https://www.wantedly.com/id/masaki_takebe' alt='wantedly' ><ContactImg src={Wantedly} /></a>
+      <a href='https://github.com/mao3329' alt='github' ><ContactIcon className="fab fa-github" /></a>
+    </ContactWrapper>
   )
 }
