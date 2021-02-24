@@ -10,7 +10,7 @@ import { Portfolio } from './components/Portfolio';
 import { Contact } from './components/Contact';
 
 const ContentTitle = styled.h1`
-
+  margin-bottom: 30px;
 `;
 
 function App() {
@@ -18,13 +18,13 @@ function App() {
     <>
       <SiteTop />
       <PageMenu />
-      <ContentTitle id="profile" >Profile</ContentTitle>
+      <ContentTitle id="profile" ><i className="fas fa-male" />Profile</ContentTitle>
       <Profile />
-      <ContentTitle id='skills'>Skills</ContentTitle>
+      <ContentTitle id='skills'><i className="fas fa-cog" />Skills</ContentTitle>
       <Skill />
-      <ContentTitle id='portfolios' >Portfolios</ContentTitle>
+      <ContentTitle id='portfolios' ><i className="fas fa-sitemap" />Portfolios</ContentTitle>
       <Portfolio />
-      <ContentTitle id='contacts' >Contact</ContentTitle>
+      <ContentTitle id='contacts' ><i className="fas fa-envelope" />Contact</ContentTitle>
       <Contact />
       <div className="footer">
         <div>

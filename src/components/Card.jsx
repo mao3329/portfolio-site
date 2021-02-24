@@ -8,16 +8,7 @@ const SkillLists = styled.div`
   flex-wrap: wrap;
 `;
 
-const CardWrppaer = styled.div`
-  margin-bottom: 50px;
-  flex-basis: 48%;
-  background-color: #ffffff;
-  border: 1px solid #dcdcdc;
-  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
-  border-radius: 5px;
-`;
-
-const CardBox = styled.div`
+const CardWrapper = styled.div`
   margin-bottom: 50px;
   flex-basis: 48%;
   background-color: #ffffff;
@@ -70,140 +61,141 @@ const CardTd = styled.td`
 export const Card = () => {
   return (
     <SkillLists>
-      <CardWrppaer>
+      <CardWrapper>
         <CardTop>
           <CardTitle>Back End</CardTitle>
           <CardText>Railsをメインに学んでいます。</CardText>
-          <CardContents>
-            <CardThead>
-              <CardTr>
-                <CardTh>Technology</CardTh><CardTh>Experience</CardTh><CardTh>Skill</CardTh>
-              </CardTr>
-            </CardThead>
-            <CardTbody>
-              <CardTr>
-                <CardTd>Ruby on Rails</CardTd><CardTd>4month</CardTd><CardTd><p className="rate rate3" /></CardTd>
-              </CardTr>
-            </CardTbody>
-          </CardContents>
         </CardTop>
-      </CardWrppaer>
+        <CardContents>
+          <CardThead>
+            <CardTr>
+              <CardTh>Technology</CardTh><CardTh>Experience</CardTh><CardTh>Skill</CardTh>
+            </CardTr>
+          </CardThead>
+          <CardTbody>
+            <CardTr>
+              <CardTd>Ruby on Rails</CardTd><CardTd>4month</CardTd><CardTd><p className="rate rate3" /></CardTd>
+            </CardTr>
+          </CardTbody>
+        </CardContents>
+      </CardWrapper>
 
-      <CardWrppaer>
+      <CardWrapper>
         <CardTop>
           <CardTitle>Design・Coding</CardTitle>
           <CardText>一通り基本のことをできます。</CardText>
-          <CardContents>
-            <CardThead>
-              <CardTr>
-                <CardTh>Technology</CardTh><CardTh>Experience</CardTh><CardTh>Skill</CardTh>
-              </CardTr>
-            </CardThead>
-            <CardTbody>
-              <CardTr>
-                <CardTd>HTML5</CardTd><CardTd>4month</CardTd><CardTd><p className="rate rate3" /></CardTd>
-              </CardTr>
-              <CardTr>
-                <CardTd>CSS3</CardTd><CardTd>4month</CardTd><CardTd><p className="rate rate3" /></CardTd>
-              </CardTr>
-            </CardTbody>
-          </CardContents>
         </CardTop>
-      </CardWrppaer>
+        <CardContents>
+          <CardThead>
+            <CardTr>
+              <CardTh>Technology</CardTh><CardTh>Experience</CardTh><CardTh>Skill</CardTh>
+            </CardTr>
+          </CardThead>
+          <CardTbody>
+            <CardTr>
+              <CardTd>HTML5</CardTd><CardTd>4month</CardTd><CardTd><p className="rate rate3" /></CardTd>
+            </CardTr>
+            <CardTr>
+              <CardTd>CSS3</CardTd><CardTd>4month</CardTd><CardTd><p className="rate rate3" /></CardTd>
+            </CardTr>
+          </CardTbody>
+        </CardContents>
 
-      <CardWrppaer>
+      </CardWrapper>
+
+      <CardWrapper>
         <CardTop>
           <CardTitle>Front End</CardTitle>
           <CardText>簡単な触りだけやっています。</CardText>
-          <CardContents>
-            <CardThead>
-              <CardTr>
-                <CardTh>Technology</CardTh><CardTh>Experience</CardTh><CardTh>Skill</CardTh>
-              </CardTr>
-            </CardThead>
-            <CardTbody>
-              <CardTr>
-                <CardTd>JavaScript</CardTd><CardTd>1month</CardTd><CardTd><p className="rate rate1" /></CardTd>
-              </CardTr>
-              <CardTr>
-                <CardTd>React.js</CardTd><CardTd>1month</CardTd><CardTd><p className="rate rate1" /></CardTd>
-              </CardTr>
-            </CardTbody>
-          </CardContents>
         </CardTop>
-      </CardWrppaer>
+        <CardContents>
+          <CardThead>
+            <CardTr>
+              <CardTh>Technology</CardTh><CardTh>Experience</CardTh><CardTh>Skill</CardTh>
+            </CardTr>
+          </CardThead>
+          <CardTbody>
+            <CardTr>
+              <CardTd>JavaScript</CardTd><CardTd>1month</CardTd><CardTd><p className="rate rate1" /></CardTd>
+            </CardTr>
+            <CardTr>
+              <CardTd>React.js</CardTd><CardTd>1month</CardTd><CardTd><p className="rate rate1" /></CardTd>
+            </CardTr>
+          </CardTbody>
+        </CardContents>
+      </CardWrapper>
 
-      <CardWrppaer>
+      <CardWrapper>
         <CardTop>
           <CardTitle>DB</CardTitle>
           <CardText>基本的な操作はできます。</CardText>
-          <CardContents>
-            <CardThead>
-              <CardTr>
-                <CardTh>Technology</CardTh><CardTh>Experience</CardTh><CardTh>Skill</CardTh>
-              </CardTr>
-            </CardThead>
-            <CardTbody>
-              <CardTr>
-                <CardTd>MySQL</CardTd><CardTd>4month</CardTd><CardTd><p className="rate rate2" /></CardTd>
-              </CardTr>
-            </CardTbody>
-          </CardContents>
         </CardTop>
-      </CardWrppaer>
+        <CardContents>
+          <CardThead>
+            <CardTr>
+              <CardTh>Technology</CardTh><CardTh>Experience</CardTh><CardTh>Skill</CardTh>
+            </CardTr>
+          </CardThead>
+          <CardTbody>
+            <CardTr>
+              <CardTd>MySQL</CardTd><CardTd>4month</CardTd><CardTd><p className="rate rate2" /></CardTd>
+            </CardTr>
+          </CardTbody>
+        </CardContents>
+      </CardWrapper>
 
-      <CardWrppaer>
+      <CardWrapper>
         <CardTop>
           <CardTitle>Infrastructure</CardTitle>
           <CardText>デプロイまで行いました。</CardText>
-          <CardContents>
-            <CardThead>
-              <CardTr>
-                <CardTh>Technology</CardTh><CardTh>Experience</CardTh><CardTh>Skill</CardTh>
-              </CardTr>
-              <CardTr>
-                <CardTd>AWS EC2</CardTd><CardTd>1month</CardTd><CardTd><p className="rate rate1" /></CardTd>
-              </CardTr>
-              <CardTr>
-                <CardTd>AWS S3</CardTd><CardTd>1month</CardTd><CardTd><p className="rate rate1" /></CardTd>
-              </CardTr>
-            </CardThead>
-            <CardTbody>
-              <CardTr>
-                <CardTd>NGINX</CardTd><CardTd>1month</CardTd><CardTd><p className="rate rate1" /></CardTd>
-              </CardTr>
-            </CardTbody>
-          </CardContents>
         </CardTop>
-      </CardWrppaer>
+        <CardContents>
+          <CardThead>
+            <CardTr>
+              <CardTh>Technology</CardTh><CardTh>Experience</CardTh><CardTh>Skill</CardTh>
+            </CardTr>
+            <CardTr>
+              <CardTd>AWS EC2</CardTd><CardTd>1month</CardTd><CardTd><p className="rate rate1" /></CardTd>
+            </CardTr>
+            <CardTr>
+              <CardTd>AWS S3</CardTd><CardTd>1month</CardTd><CardTd><p className="rate rate1" /></CardTd>
+            </CardTr>
+          </CardThead>
+          <CardTbody>
+            <CardTr>
+              <CardTd>NGINX</CardTd><CardTd>1month</CardTd><CardTd><p className="rate rate1" /></CardTd>
+            </CardTr>
+          </CardTbody>
+        </CardContents>
+      </CardWrapper>
 
-      <CardWrppaer>
+      <CardWrapper>
         <CardTop>
           <CardTitle>Other</CardTitle>
           <CardText>開発で使用した技術です。</CardText>
-          <CardContents>
-            <CardThead>
-              <CardTr>
-                <CardTh>Technology</CardTh><CardTh>Experience</CardTh><CardTh>Skill</CardTh>
-              </CardTr>
-            </CardThead>
-            <CardTbody>
-              <CardTr>
-                <CardTd>Docker</CardTd><CardTd>2month</CardTd><CardTd><p className="rate rate2" /></CardTd>
-              </CardTr>
-              <CardTr>
-                <CardTd>Git</CardTd><CardTd>4month</CardTd><CardTd><p className="rate rate2" /></CardTd>
-              </CardTr>
-              <CardTr>
-                <CardTd>Slack</CardTd><CardTd>4month</CardTd><CardTd><p className="rate rate5" /></CardTd>
-              </CardTr>
-              <CardTr>
-                <CardTd>VScode</CardTd><CardTd>4month</CardTd><CardTd><p className="rate rate3" /></CardTd>
-              </CardTr>
-            </CardTbody>
-          </CardContents>
         </CardTop>
-      </CardWrppaer>
+        <CardContents>
+          <CardThead>
+            <CardTr>
+              <CardTh>Technology</CardTh><CardTh>Experience</CardTh><CardTh>Skill</CardTh>
+            </CardTr>
+          </CardThead>
+          <CardTbody>
+            <CardTr>
+              <CardTd>Docker</CardTd><CardTd>2month</CardTd><CardTd><p className="rate rate2" /></CardTd>
+            </CardTr>
+            <CardTr>
+              <CardTd>Git</CardTd><CardTd>4month</CardTd><CardTd><p className="rate rate2" /></CardTd>
+            </CardTr>
+            <CardTr>
+              <CardTd>Slack</CardTd><CardTd>4month</CardTd><CardTd><p className="rate rate5" /></CardTd>
+            </CardTr>
+            <CardTr>
+              <CardTd>VScode</CardTd><CardTd>4month</CardTd><CardTd><p className="rate rate3" /></CardTd>
+            </CardTr>
+          </CardTbody>
+        </CardContents>
+      </CardWrapper>
     </SkillLists>
   )
 }

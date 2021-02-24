@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { PortfolioIntro } from './PortfolioIntro';
+import PortfolioImg0 from '../images/portfolio0.png';
+import PortfolioImg1 from '../images/portfolio1.png';
+
 
 const PortfolioWrapper = styled.div`
   margin-bottom: 50px;
@@ -41,7 +44,7 @@ export const Portfolio = () => {
   const [sourceCodeUrl, setSourceCode] = useState("");
   const [technology, setTechnology] = useState("");
 
-    const onClickOne = () => {
+  const onClickOne = () => {
     setTitle("ポートフォリオサイト")
     setSiteUrl("https://mao3329.github.io/portfolio-site")
     setText("フロントのみの静的サイトです。")
@@ -49,20 +52,20 @@ export const Portfolio = () => {
     setTechnology("React・HTML")
   }
 
-  const onClicktwo = () => {
+  const onClickTwo = () => {
     setTitle("掲示板サイト")
     setSiteUrl("https://www.watchworld0730.tk/")
     setText("基本的なCRUD機能を持ったサイトです。")
     setSourceCode("https://github.com/mao3329/watch_world")
-    setTechnology("Rails・Ruby・Docker・HTML・SCSS")
+    setTechnology("Rails・Ruby・Docker・HTML・SCSS・AWS")
   }
 
   return (
     <PortfolioWrapper>
       <PortfolioContents>
         <PortfolioTop>
-          <PortfolioImg src='#' onClick={onClickOne} />
-          <PortfolioImg src='#' onClick={onClicktwo} />
+          <PortfolioImg src={PortfolioImg0} onClick={onClickOne} />
+          <PortfolioImg src={PortfolioImg1} onClick={onClickTwo} />
         </PortfolioTop>
         <PortfolioBottom>
           {title &&
